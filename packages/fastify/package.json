@@ -1,0 +1,18 @@
+{
+  "name": "fastify-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker run -p 8080:8080 fastify-sample",
+    "build": "docker build -t fastify-sample .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^2.13.1",
+    "serve-static": "^1.14.1"
+  }
+}
